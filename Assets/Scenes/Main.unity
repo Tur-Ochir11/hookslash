@@ -15788,9 +15788,9 @@ GameObject:
   - component: {fileID: 853817159}
   - component: {fileID: 853817158}
   - component: {fileID: 853817163}
+  - component: {fileID: 853817165}
   - component: {fileID: 853817162}
   - component: {fileID: 853817164}
-  - component: {fileID: 853817165}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -15988,7 +15988,7 @@ MonoBehaviour:
   leftHook: {fileID: 549172191}
   rightHook: {fileID: 1028479957}
   gasForce: 50
-  airControlForce: 10
+  airControlForce: 8
   reelSpeed: 15
   cameraTransform: {fileID: 215317887}
   playerInput: {fileID: 853817162}

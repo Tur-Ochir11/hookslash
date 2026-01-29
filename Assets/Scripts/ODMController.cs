@@ -48,7 +48,7 @@ public class ODMController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        HandleReeling();
+        // HandleReeling();
         HandleAirControl();
     }
 

@@ -97,7 +97,7 @@ public class Player : MonoBehaviour
         else
         {
             // In air, we rely more on ODMController's air control, but can add a bit here too
-            rb.AddForce(moveDirection * (moveSpeed * 0.5f), ForceMode.Acceleration);
+            // rb.AddForce(moveDirection * (moveSpeed * 0.5f), ForceMode.Acceleration);
         }
     }
 
