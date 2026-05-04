@@ -92,6 +92,8 @@ public class ODMController : MonoBehaviour
 
     private void ApplyGasBoost()
     {
+        if (!leftHook.IsGrappling() || !rightHook.IsGrappling()) return;
+        
         rb.AddForce(cameraTransform.forward * gasForce, ForceMode.Impulse);
     }
 

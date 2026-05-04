@@ -25,6 +25,7 @@ public class Player : MonoBehaviour
     private InputAction moveAction;
     private InputAction jumpAction;
     private InputAction sprintAction;
+    private InputAction attackAction;
 
     private void Awake()
     {
